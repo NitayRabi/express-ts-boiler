@@ -1,0 +1,1 @@
+export { getSslCerts } from './ssl-cert-collector.helper';

@@ -1,0 +1,30 @@
+{
+  "name": "edr-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "pm2 start processes.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://nitayr@c4scm.c4internal.c4-security.com:7990/scm/cfs/edr-rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "config": "^1.29.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "pm2": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.4.6",
+    "typescript": "^2.4.2"
+  }
+}
